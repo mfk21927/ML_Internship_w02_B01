@@ -19,7 +19,7 @@
 ---
 
 ## 📌 Project Overview
-This project focuses on building a strong foundation in **Python for Machine Learning**. It covers high-performance numerical computing with **NumPy**, data manipulation and feature engineering with **Pandas**, and data visualization using **Matplotlib and Seaborn**. [cite_start]Additionally, it implements **Object-Oriented Programming (OOP)** principles to create reusable data preprocessing pipelines. [cite: 1, 17, 33, 51]
+This project focuses on mastering the core Python libraries essential for Machine Learning. The primary goal is to gain proficiency in numerical computing with **NumPy**, data manipulation with **Pandas**, and insightful data visualization using **Matplotlib and Seaborn**. The workflow also emphasizes **Object-Oriented Programming (OOP)** by building modular data preprocessing classes to streamline the transition from raw data to model-ready features.
 
 ## 📈 Weekly Progress
 
@@ -30,44 +30,47 @@ This project focuses on building a strong foundation in **Python for Machine Lea
 ---
 
 <details>
-<summary><b>Week 2 Detailed Task Breakdown</b></summary>
+<summary><b>Week 2: Detailed Task Documentation</b></summary>
 
 ### Task 2.1: NumPy Array Operations
-* [cite_start]Created `numpy_basics.py` to demonstrate 15 different NumPy operations. [cite: 3, 4]
-* [cite_start]Implemented array creation, reshaping, slicing, and broadcasting. [cite: 9, 10, 11, 14]
-* [cite_start]Calculated statistical functions including mean, median, standard deviation, and variance. [cite: 13]
+* Created `numpy_basics.py` covering 15 essential operations.
+* Demonstrated array creation (`np.zeros`, `np.ones`, `np.arange`), reshaping, and slicing.
+* Performed mathematical operations and calculated statistical functions (mean, median, std).
+* Applied broadcasting techniques for efficient array transformations.
 
 ### Task 2.2: Pandas Data Manipulation
-* [cite_start]Developed `pandas_exploration.ipynb` using the Titanic dataset. [cite: 18, 19]
-* [cite_start]Performed data cleaning, including handling missing values. [cite: 26, 27]
-* [cite_start]Engineered 5 new features: `FamilySize`, `IsAlone`, `Title`, `FareBin`, and `AgeBin`. [cite: 28]
-* [cite_start]Generated statistical summaries and exported the cleaned dataset. [cite: 29, 31]
+* Developed `pandas_exploration.ipynb` to analyze the Titanic dataset.
+* Cleaned data by handling missing values in Age and Embarked columns.
+* Engineered 5 new features: `FamilySize`, `IsAlone`, `Title`, `FareBin`, and `AgeBin`.
+* Exported the final processed dataset as `titanic_cleaned.csv`.
 
 ### Task 2.3: Data Visualization
-* [cite_start]Created `data_visualization.py` to generate 8 plot types: line, scatter, histogram, bar, box, violin, heatmap, and pair plots. [cite: 34]
-* [cite_start]Automated the saving of all plots as PNG files in a dedicated `/visualizations` folder. [cite: 35, 49]
+* Developed `data_visualization.py` to automate the generation of 8 distinct plot types.
+* Generated line, scatter, histogram, bar, box, violin, heatmap, and pair plots.
+* Organized and saved all outputs as PNG files in a dedicated `/visualizations` folder.
 
 #### 📸 Visualizations Gallery
 **1. Correlation Heatmap**
 ![Heatmap](visualizations/heatmap.png)
 
-**2. Age vs Fare Scatter Plot**
-![Scatter Plot](visualizations/scatter_plot.png)
-
-**3. Survival Rates Bar Chart**
+**2. Survival Rates by Gender**
 ![Bar Chart](visualizations/bar_chart.png)
 
+**3. Age vs Fare Distribution**
+![Scatter Plot](visualizations/scatter_plot.png)
+
 ### Task 2.4: Object-Oriented Programming (OOP)
-* [cite_start]Built a `DataPreprocessor` class to automate ML workflows. [cite: 52]
-* [cite_start]Implemented methods for data loading, categorical encoding, and feature scaling. [cite: 58, 60, 61]
-* [cite_start]Added functionality for train-test splitting and saving processed data. [cite: 62, 63]
+* Built a comprehensive `DataPreprocessor` class in `data_preprocessor.py`.
+* Integrated modular methods for data loading, handling nulls, and categorical encoding.
+* Implemented feature scaling using `StandardScaler` and automated the train-test split process.
 
 </details>
 
 ## 💻 Tech Stack
-* [cite_start]**Language:** Python [cite: 1]
-* [cite_start]**Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn [cite: 6, 22, 37, 60, 61]
-* [cite_start]**Tools:** Jupyter Notebook, Git, VS Code [cite: 16, 24, 32]
+* **Language:** Python
+* **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn
+* **Environment:** Jupyter Notebook, VS Code
+* **Version Control:** Git & GitHub
 
 ## 📫 Contact
 **Muhammad Fahad**
